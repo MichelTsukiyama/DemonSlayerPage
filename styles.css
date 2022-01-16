@@ -66,10 +66,17 @@ header li {
     margin: 5px;
     padding: 10px;
     opacity: 0.9;
-
 }
 
-header ul li a {
+header li:hover{
+    background-color: rgb(99, 98, 98);
+}
+
+.headerlink {
+    color: white;
+}
+
+.headerlink:hover {
     color: white;
 }
 
@@ -169,7 +176,7 @@ article h1{
     display: flex;
 }
 
-@media (min-width: 480px) and (max-width: 720px){
+@media (max-width: 1200px){
 
     .navigator{
         left: 85%;
